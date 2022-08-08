@@ -1,0 +1,408 @@
+#join{
+  width:100%;
+  .container{
+    width:640px;
+    margin:0 auto;
+    .gap{
+      margin:0;
+      padding:0 20px;
+      .wrap{
+        width:100%;
+        #form{
+          position:relative;
+          z-index:1;
+          .title_box{
+            width:100%;
+            text-align:center;
+            margin:50px 0 30px 0;
+            h1{
+              img{
+                width:100px;
+              }
+            }
+            h2{
+              padding:5px 0 0 0;
+              font-size:32px;
+              font-weight:600;
+              font-family:'Nanum Gothic';
+              color:#83a75d;
+            }
+          }
+          .content_box{
+            width:100%;
+            h4{
+              border-bottom:2px solid #000;
+              width:100%;
+              text-align:right;
+              padding:0 0 10px 0;
+              span{
+                color:#666;
+                font-size:12px;
+                i{
+                  color:#c00;
+                  font-size:16px;
+                  margin:0 2px 0 0;
+                }
+              }
+            }
+            ul{
+              width:100%;
+              padding:10px 0 0 0;
+              li{
+                .gap{
+                  padding:10px 0;
+                  display:flex;
+                  .label_box{
+                    padding:0 0 0 28px;
+                    width:160px;
+                    display:flex;
+                    span{
+                      color:#111;
+                      font-size:14px;
+                      font-family:'Nanum Gothic';
+                      font-weight:600;
+                      margin:auto auto auto 0;
+                      i{
+                        color:#c00;
+                        font-size:15px;
+                        margin:0 0 0 2px;
+                      }
+                    }
+                  }
+                  .input_box{
+                    width:490px;
+                    padding:0 120px 0 0;
+                    margin:auto 28px auto auto;
+                    position:relative;
+                    .inputText{
+                      width:100%;
+                      height:45px;
+                      background:#fff;
+                      border:1px solid #ccc;
+                      border-radius:3px;
+                      padding:0 15px 0 15px;
+                      &::placeholder{
+                        color:#bbb;
+                        font-size:14px;
+                      }
+                      &:focus{
+                        outline-offset:-1px;
+                        outline:1px solid #777;
+                      }
+                      &.addr{
+                        border:1px solid #83a75d;
+                        color:#83a75d;
+                        font-weight:600;
+                        cursor:pointer;
+                        padding:0;
+                        img{
+                          margin:0 -2px -1px 0;
+                        }
+                        span{
+                          vertical-align:middle;
+                        }
+                        &.on{
+                          position:absolute;
+                          top:0;
+                          right:0;
+                          width:110px;
+                          height:45px;
+                          border-radius:5px;
+                          font-size:14px;
+                          font-family:'Nanum Gothic'; 
+                        }
+                      }
+                      // 휴대폰 인증번호 입력창
+                      &.phoneNum-input{
+                        margin-top:10px;
+                      }
+                    }
+                    .w120-btn{
+                      width:110px;
+                      height:45px;
+                      border:0;
+                      background:#fff;
+                      color:#83a75d;
+                      border:1px solid #83a75d;
+                      border-radius:5px;
+                      font-size:14px;
+                      font-weight:600;
+                      font-family:'Nanum Gothic';
+                      position:absolute;
+                      right:0;
+                      top:0;
+                      cursor:pointer;
+                      &.phone{
+                        border:1px solid #ccc;
+                        color:#ccc;
+                      }
+                      &.phoneNum-btn{
+                        top:55px;
+                      }
+                    } 
+                    // 카운터 타이머
+                    .counter-timer-box{
+                      position:absolute;
+                      top:70px;
+                      right:130px;
+                      font-size:14px;
+                      font-weight:500;
+                      letter-spacing:3px;
+                      font-family:'Noto Sans KR';
+                      color:#b3130b;
+                    }
+                    >p{
+                      margin:7px 0 0 0;
+                      font-size:12px;
+                      color:#666;
+                      font-family:'Nanum Gothic';
+                      &::before{
+                        display:inline-block;
+                        content:'\2022';
+                        margin:0 3px 0 0;
+                      }
+                      &.success{
+                        color:#0f851a;
+                      }
+                      &.success::before{
+                        display:inline-block; 
+                        content:'\2713'; 
+                        margin:0 3px 0 0;
+                        color:#0f851a;
+                      }
+                      &.error{
+                        color:#b3130b;
+                      }
+                      &.error::before{
+                        display:inline-block;
+                        content:'\2715'; 
+                        margin:0 3px 0 0;
+                        color:#b3130b;;
+                      }
+                    }
+                    >span{
+                      display:block;
+                      &.address_info{
+                        margin:7px 0 0 0;
+                        font-size:12px;
+                        color:#666;
+                      }
+                    }
+                  }
+                }
+                hr{
+                  border:0;
+                  border-bottom:1px solid #333;
+                  width:100%;
+                  margin:20px 0;
+                }
+                &.service{
+                  .gap{
+                    height:auto;
+                    .label_box{
+                      height:auto;
+                      margin:0 auto auto 0;
+                    }
+                    .check_box{
+                      padding:0;
+                      width:100%;
+                      dl{
+                        width:100%;
+                        dt{
+                          label{
+                            display:block;
+                            width:100%; 
+                            input[type="checkbox"]{
+                              width:24px;
+                              height:24px; 
+                              appearance:none;
+                              border-radius:50%;
+                              background:url(../../public/img/회원가입/ico_checkbox.svg) no-repeat 50% 50%;
+                              background-size:24px 24px; 
+                              margin:0 5px 5px 10px;
+                              &:checked{
+                                background:url(../../public/img/회원가입/ico_checkbox_checked.svg);
+                              }
+                            }
+                            span{
+                              font-size:18px;
+                              color:#444;
+                              font-weight:500;
+                              font-family:'Nanum Gothic';
+                            }
+                          }
+                          p{
+                            padding:5px 0 0 45px;
+                            font-size:12px;
+                            color:#666;
+                            font-family:'Nanum Gothic';
+                            line-height:1.5;
+                          }
+                        }
+                        dd{
+                          margin:20px 0;
+                          position:relative;
+                          label{
+                            display:block;
+                            width:100%;
+                            position:relative;
+                            z-index:1;
+                            input[type="checkbox"]{
+                              width:24px;
+                              height:24px; 
+                              appearance:none;
+                              border-radius:50%;
+                              background:url(../../public/img/회원가입/ico_checkbox.svg) no-repeat 50% 50%;
+                              background-size:24px 24px; 
+                              margin:0 5px 5px 10px;
+                              &:checked{
+                                background:url(../../public/img/회원가입/ico_checkbox_checked.svg);
+                              }
+                            }
+                            span{
+                              font-size:15px;
+                              line-height:24px;
+                              font-family:'Nanum Gothic';
+                            }
+                          }
+                          >span{ 
+                            position:absolute; 
+                            top:5px; 
+                            right:25px; 
+                            z-index:2;
+                            font-size:14px;
+                            font-family:'Nanum Gothic';
+                            a{
+                              color:#83a75d;
+                              i{
+                                font-size:12px;
+                              }
+                            }
+                          }
+                          .sub_checkbox{
+                            padding:10px 0 0 45px;
+                            div{
+                              padding:0 150px 0 0;
+                              display:flex;
+                              flex-flow:row wrap;
+                              label{
+                                width:50%;
+                              }
+                            }
+                            p{
+                              padding:0 0 0 15px; 
+                              margin:15px 0 0 34px; 
+                              width:auto;
+                              background:url(../../public/img/회원가입/ico_sub_dot.svg) no-repeat 0 50%; 
+                              font-size:12px;
+                              color:#83a75d;
+                              font-family:'Nanum Gothic';
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .button_box{
+            padding:50px 0 50px 0;
+            border-top:1px solid #ddd;
+            text-align:center;
+            button{
+              width:250px;
+              height:60px;
+              background:#83a75d;
+              border:0;
+              color:#fff;
+              font-weight:600;
+              font-size:18px;
+              border-radius:5px;
+              cursor:pointer;
+              transition:all .3s ease-in-out;
+              &:hover{
+                filter:brightness(120%); // 버튼에 마우스를 올리면 버튼의 밝기가 더 밝아지도록 설정
+              }
+            }
+          }
+        }
+        .popup{
+          position:fixed;
+          top:0;
+          left:0;
+          width:100%;
+          height:100%;
+          z-index:2;
+          background:rgba(0,0,0,.3);
+          display:flex;
+          .popup-container{
+            width:490px;
+            height:270px;
+            background:#fff;
+            margin:auto;
+            .content-box{
+              width:100%;
+              height:170px;
+              background:#fff;
+              ul{
+                padding:0 25px;
+                li{
+                  width:100%;
+                  display:flex;
+                  &:nth-child(1){
+                    height:60px;
+                    border-bottom:1px solid #ccc;
+                    h2{
+                      margin:auto auto auto 0; // 왼쪽정렬
+                      color:#83a75d;
+                      font-weight:500;
+                    }
+                    span{
+                      margin:auto 0 auto auto; // 오른쪽정렬
+                      a{
+                        img{
+                          width:32px;
+                          height:32px;
+                        }
+                      }
+                    }
+                  }
+                  &:nth-child(2){
+                    height:110px;
+                    p{
+                      width:100%;
+                      font-size:14px;
+                      color:#444;
+                      text-align:center;
+                      margin:auto;
+                    }
+                  }
+                }
+              }
+            }
+            .button-box{
+              width:100%;
+              height:100px;
+              background:#f0f0f0;
+              display:flex;
+              .ok-btn{
+                width:150px;
+                height:45px;
+                margin:auto;
+                background:#83a75d;
+                color:#fff;
+                font-size:14px;
+                font-weight:500;
+                border:none;
+                border-radius:3px;
+                cursor:pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

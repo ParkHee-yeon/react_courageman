@@ -1,0 +1,75 @@
+#login .container {
+  width: 1050px;
+  height: 650px;
+  margin: 0 auto;
+}
+#login .container .gap {
+  margin: 0;
+  padding: 0 20px;
+}
+#login .container .gap .wrap {
+  width: 100%;
+}
+#login .container .gap .wrap .login_title {
+  text-align: center;
+  margin: 0 auto;
+  padding: 150px 0px 40px 0px;
+}
+#login .container .gap .wrap .login_title span {
+  font-weight: 600;
+  font-size: 55px;
+  color: #83a75d;
+}
+#login .container .gap .wrap .login_input {
+  width: 100%;
+}
+#login .container .gap .wrap .login_input input {
+  display: block;
+  width: 400px;
+  height: 45px;
+  border: 1px solid #cfcfcf;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+  border-radius: 5px;
+}
+#login .container .gap .wrap .login_input input:nth-child(1) {
+  margin-bottom: 10px;
+}
+#login .container .gap .wrap .login_btn {
+  padding: 7px 0px 7px 0px;
+  margin: 10px 0;
+}
+#login .container .gap .wrap .login_btn button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  height: 45px;
+  background: #83a75d;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+#login .container .gap .wrap .login_join {
+  width: 100%;
+}
+#login .container .gap .wrap .login_join ul {
+  display: flex;
+  justify-content: center;
+}
+#login .container .gap .wrap .login_join ul li {
+  margin: 10px 5px;
+  font-size: 14px;
+  color: #eee;
+}
+#login .container .gap .wrap .login_join ul li:nth-child(1) {
+  margin: 10px 5px 0 0;
+}
+#login .container .gap .wrap .login_join ul li:nth-child(5) {
+  margin: 10px 0 0 5px;
+}
+#login .container .gap .wrap .login_join ul li a {
+  color: #777;
+}
