@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react_courageman/static/css/main.bbdf865b.css",
+    "main.js": "/react_courageman/static/js/main.29b0a795.js",
+    "static/media/친환경배너.png": "/react_courageman/static/media/친환경배너.ece21bb81db9d2dd2ec3.png",
+    "static/media/뉴스배너.png": "/react_courageman/static/media/뉴스배너.46ca37ead5a3c1198f45.png",
+    "static/media/화살표.png": "/react_courageman/static/media/화살표.9a86dda18d6ac8af62b0.png",
+    "static/media/마케팅배너.png": "/react_courageman/static/media/마케팅배너.7a748a3d74765d9375b9.png",
+    "index.html": "/react_courageman/index.html",
+    "static/media/ico_checkbox_checked.svg": "/react_courageman/static/media/ico_checkbox_checked.792ebb82c55403861d27.svg",
+    "static/media/ico_checkbox.svg": "/react_courageman/static/media/ico_checkbox.6494f2112e510119ebcc.svg",
+    "static/media/ico_sub_dot.svg": "/react_courageman/static/media/ico_sub_dot.f1c4a62d9156b1631e23.svg",
+    "main.bbdf865b.css.map": "/react_courageman/static/css/main.bbdf865b.css.map",
+    "main.29b0a795.js.map": "/react_courageman/static/js/main.29b0a795.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbdf865b.css",
+    "static/js/main.29b0a795.js"
+  ]
+}
